@@ -1,0 +1,9 @@
+name: UserWarps
+author: KeinByte
+version: 1.0
+api-version: 1.13
+main: de.keinbyte.userwarps.UserWarps
+
+commands:
+  swarp:
+  swarpadmin:

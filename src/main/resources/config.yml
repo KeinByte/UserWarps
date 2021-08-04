@@ -1,0 +1,35 @@
+mysql:
+  connection:
+    database: UserWarps
+    username: root
+    host: localhost
+    port: 3306
+    password: passwort123
+
+inventory:
+  main_inventory:
+    title: "§8» §6Warp-Menü"
+    sort:
+      alphabetical:
+        name: "§8» §aAlphabetisch sortieren"
+        material: BOOK
+        slot: 1
+      last:
+        name: "§8» §e27 letzte Benutzungen"
+        material: HOPPER
+        slot: 3
+      uses:
+        name: "§8» §6Meister nutzen §7-> §eWenigsten nutzen"
+        material: GOLD_INGOT
+        slot: 5
+    administration:
+        name: "§8» §4Einstellungen"
+        material: NAME_TAG
+        slot: 7
+  administration:
+    title: "§8» §cAdministrations-Menü"
+    delete:
+      title: "§8» §cLöschungs-Menü §8[§e{0}§8]"
+
+messages:
+  prefix: "§9§lMineSucht §8» §r"
